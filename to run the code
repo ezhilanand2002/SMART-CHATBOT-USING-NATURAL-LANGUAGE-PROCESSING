@@ -1,0 +1,25 @@
+## **Project Structure:**
+```
+chatbot-project/
+│
+├── app.py                 # Flask backend
+├── templates/
+│   └── index.html        # Frontend template
+└── requirements.txt      # Python dependencies
+```
+
+## **requirements.txt:**
+```
+Flask==3.0.0
+
+
+Install dependencies:
+
+bashpip install -r requirements.txt
+
+Run the Flask app:
+
+bashpython app.py
+
+Open browser:
+Navigate to http://localhost:5000
